@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="/js/contact.js">
+    <title>contact</title>
+</head>
+<body>
+    <form method="POST" id="form">
+
+        <input type="hidden" name="access_key" value="3a670590-0f40-4bcd-ac3f-9a7d89e76f34">
+        
+        <label for="name" class="label"></label>
+        <input type="text" name="name" placeholder="Name" class="one">
+        <label for="phone" class="label"></label>
+        <input type="text" name="phone" placeholder="Phone" required class="one">
+        <label for="email" class="label"></label>
+        <input type="email" name="email" placeholder="Email" required class="one">
+        <textarea name="message" required class="one text" placeholder="message"></textarea>
+       <div class="d-grid"><button type="submit" class="btn">Submit Form</button> </div>
+        <div id="result"></div>
+    
+    </form>
+    <script src="./js/contact.js"></script>
+</body>
+</html>
